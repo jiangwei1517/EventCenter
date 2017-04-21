@@ -1,4 +1,6 @@
 # EventCenter
+
+![MacDown logo](http://i2.sanwen8.cn/doc/1610/704-161024214100.jpg)
 ## 解决问题
 * 消息的全局分发
 * 消息的定向分发
