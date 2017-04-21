@@ -1,6 +1,6 @@
 # EventCenter
 
-![MacDown logo](http://i2.sanwen8.cn/doc/1610/704-161024214100.jpg)
+![MacDown logo](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492799239489&di=3683731794f7c92b0e10b75a4746df26&imgtype=0&src=http%3A%2F%2Fimg27.51tietu.net%2Fpic%2F2017-011500%2F20170115001256mo4qcbhixee164299.jpg)
 ## 解决问题
 * 消息的全局分发
 * 消息的定向分发
