@@ -81,7 +81,7 @@ handler的注册与解除注册，其中注册分先后顺序，先注册先接�
   `TYPE_TAIL_ALL倒序全局发送、TYPE_TAIL_ONE倒序定向发送、TYPE_BUT_ONE`  
   `正向除了指定ID发送、TYPE_TAIL_BUT_ONE倒序除了指定ID发送。`
    
- 	 public void send(@NonNull Class<? extends Event> event, int targetHandlerId, int sendType, Object...objs) {
+ 	public void send(@NonNull Class<? extends Event> event, int targetHandlerId, int sendType, Object...objs) {
  	 ...
   	}
   	
