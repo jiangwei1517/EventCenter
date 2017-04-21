@@ -1,20 +1,20 @@
-# EventCenter
+# <a name="fenced-code-block">EventCenter</a>
 
 ![MacDown logo](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492799239489&di=3683731794f7c92b0e10b75a4746df26&imgtype=0&src=http%3A%2F%2Fimg27.51tietu.net%2Fpic%2F2017-011500%2F20170115001256mo4qcbhixee164299.jpg)
-## 解决问题
+## <a name="fenced-code-block">解决问题</a>
 * 消息的全局分发
 * 消息的定向分发
 * 消息拦截分发
 * 消息正序，倒序分发
 
-## 基本思想
+## <a name="fenced-code-block">基本思想</a>
 * 基于Handler实现
 * 消息接收器的注册与解除注册
 * 接口回调方法
 * 反射
 
-## 使用方法
-### handler的接收方法：
+## <a name="fenced-code-block">使用方法</a>
+### <a name="fenced-code-block">handler的接收方法：</a>
 Handler的基本用法，所实现的Handler都要直接或间接的继承EventHandler，并且实现接收的接口，便于回调：
 
  	 public static class EventHandler2 extends EventHandler implements EventOnLoad, EventOnHahaLoad {
@@ -72,11 +72,11 @@ handler的注册与解除注册，其中注册分先后顺序，先注册先接�
         handler2.unRegister();
     }
      
-### 发送方法参数： 
+### <a name="fenced-code-block">发送方法参数： </a>
   `event:接收器所实现的接口的Class对象`
 
   `targetHandlerId:目标接收器的id唯一标识，仅对指定分发此参数有效,通过handler.getHandlerId()获取。`
-  
+
   `sendType:发送方式，TYPE_ALL正序全局发送、TYPE_ONE定向正序发送、`
   `TYPE_TAIL_ALL倒序全局发送、TYPE_TAIL_ONE倒序定向发送`
   `TYPE_BUT_ONE正向除了指定ID发送、TYPE_TAIL_BUT_ONE倒序除了指定ID发送。`
@@ -85,9 +85,9 @@ handler的注册与解除注册，其中注册分先后顺序，先注册先接�
  	 ...
   	}
   	
-### 例子
+## <a name="fenced-code-block">例子</a>
 
-#### 定向全局发送消息
+### <a name="fenced-code-block">定向全局发送消息</a>
 
 	package com.jiangwei.eventcenter.activity;
 	
