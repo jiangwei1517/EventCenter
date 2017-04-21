@@ -73,13 +73,11 @@ handler的注册与解除注册，其中注册分先后顺序，先注册先接�
     }
      
 ### 发送方法参数： 
-   ` event:接收器所实现的接口的Class对象`
-   
-   `targetHandlerId:目标接收器的id唯一标识，通过handler.getHandlerId()获取 `
-   
+  `event:接收器所实现的接口的Class对象`
+  `targetHandlerId:目标接收器的id唯一标识，仅对指定分发此参数有效,通过handler.getHandlerId()获取 `
   `sendType:发送方式，TYPE_ALL正序全局发送、TYPE_ONE定向正序发送、`
-  `TYPE_TAIL_ALL倒序全局发送、TYPE_TAIL_ONE倒序定向发送、TYPE_BUT_ONE`  
-  `正向除了指定ID发送、TYPE_TAIL_BUT_ONE倒序除了指定ID发送。`
+  `TYPE_TAIL_ALL倒序全局发送、TYPE_TAIL_ONE倒序定向发送`
+  `TYPE_BUT_ONE正向除了指定ID发送、TYPE_TAIL_BUT_ONE倒序除了指定ID发送。`
    
  	public void send(@NonNull Class<? extends Event> event, int targetHandlerId, int sendType, Object...objs) {
  	 ...
