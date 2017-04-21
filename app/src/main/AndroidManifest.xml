@@ -8,7 +8,49 @@
     android:label="@string/app_name"
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
-    <activity android:name="activity.TestEventCenterActivity">
+    <activity android:name="com.jiangwei.eventcenter.activity.SendOneActivity">
+      <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.MAIN"/>-->
+
+        <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+      <!--</intent-filter>-->
+    </activity>
+
+    <activity android:name="com.jiangwei.eventcenter.activity.SendAllActivity">
+      <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.MAIN"/>-->
+
+        <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+      <!--</intent-filter>-->
+    </activity>
+
+    <activity android:name="com.jiangwei.eventcenter.activity.SendOrderActivity">
+      <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.MAIN"/>-->
+
+        <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+      <!--</intent-filter>-->
+    </activity>
+
+    <activity android:name="com.jiangwei.eventcenter.activity.SendOrderInterceptActivity">
+      <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.MAIN"/>-->
+
+        <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+      <!--</intent-filter>-->
+    </activity>
+
+
+    <activity android:name="com.jiangwei.eventcenter.activity.SendOrderButOneActivity">
+      <!--<intent-filter>-->
+      <!--<action android:name="android.intent.action.MAIN"/>-->
+
+      <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+      <!--</intent-filter>-->
+    </activity>
+
+
+    <activity android:name="com.jiangwei.eventcenter.activity.SendOrderTailButOneActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
 
