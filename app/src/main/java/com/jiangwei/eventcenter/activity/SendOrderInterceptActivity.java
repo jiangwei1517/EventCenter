@@ -1,6 +1,6 @@
 package com.jiangwei.eventcenter.activity;
 
-import com.eventcenter.luffy.eventcenter.R;
+import com.jiangwei.eventcenter.R;
 import com.jiangwei.eventcenter.core.EventCenter;
 import com.jiangwei.eventcenter.core.EventHandler;
 import com.jiangwei.eventcenter.core.SendType;
