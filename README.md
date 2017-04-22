@@ -33,7 +33,7 @@ Handler的基本用法，所实现的Handler都要直接或间接的继承EventH
             return false;
         }
     }
-handler所实现的接口都要继承于Event这个标签：
+handler所实现的接口都要继承于Event这个标签,返回值如果为boolean值,仅对拦截消息情况有用,true:拦截,false:不拦截：
 
 	public interface EventOnLoad extends Event{
 
